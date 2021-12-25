@@ -37,8 +37,8 @@ router.get("/store", (req, res) => {
   var pass = bcrypt.hashSync("111111");
 
   const obj = new Student({
-    name: "gaurav",
-    email: "gaurav@gmail.com",
+    name: "hetvi",
+    email: "hetvi@gmail.com",
     password: pass,
   });
   Student.insertMany(obj, (err, data) => {
